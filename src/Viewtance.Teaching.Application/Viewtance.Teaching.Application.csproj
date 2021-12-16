@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Viewtance.Teaching</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Viewtance.Teaching.Domain\Viewtance.Teaching.Domain.csproj" />
+    <ProjectReference Include="..\Viewtance.Teaching.Application.Contracts\Viewtance.Teaching.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Saas.Host.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.Identity.Pro.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Public.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Admin.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.LanguageManagement.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.TextTemplateManagement.Application" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.LeptonTheme.Management.Application" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
